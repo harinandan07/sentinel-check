@@ -15,7 +15,7 @@ resource "aws_instance" "AWS-terraform" {
 
   tags = {
     #Name = "AWS-Terraform-test"
-    Environment = dev
+    Environment = "dev"
   }
 
 }
