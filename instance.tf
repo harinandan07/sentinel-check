@@ -13,8 +13,9 @@ resource "aws_instance" "AWS-terraform" {
 
   instance_type = "t3.micro"
 
-  # tags = {
-  #   Name = "AWS-Terraform-test"
-  # }
+  tags = {
+    #Name = "AWS-Terraform-test"
+    Environment = dev
+  }
 
 }
